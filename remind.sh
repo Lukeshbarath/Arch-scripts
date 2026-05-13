@@ -13,7 +13,6 @@ elif [ $unit ==  s ]; then
 	period_sec=$period
 fi
 
-echo $period_sec
 
 {
 sleep "$period_sec" 
